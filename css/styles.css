@@ -1,0 +1,222 @@
+/* Generales---------------*/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../imagenes/fondoUno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0.5rem 0;
+    background-color: black;
+}
+
+h2 {
+    background-color: #002c83;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+h3 {
+    background-color: #002c83;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+    height: 2rem;
+    padding: 0.5rem 0 0 0;
+    font-weight: 300;
+    margin: 0;
+    background-color: #3540b8;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: left;
+    margin: 0;
+    padding: 0.1rem 0.6rem;
+    color: white;
+}
+
+/* INDEX---------------------------------------------*/
+.div__index {
+    width: 42rem;
+    height: 64rem;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+ol {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item__clases {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 6rem;
+    margin: 5px 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.item__clases h3 {
+    height: 2.5rem;
+    padding: 2rem 0 0 0;
+    text-align: center;
+    background-color: black;
+}
+
+.item__clases a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: white;
+}
+
+.item__clases h3:hover {
+    background-color: #001c53;
+}
+
+.item__clases p {
+    margin: 0.2rem 0.5rem 0 1rem;
+    font-size: 0.8rem;
+}
+
+.item__clases h3:hover {
+    background-color: #001c53;
+}
+
+.proyectoFinal h4 {
+    background-color: #5d3b68;
+}
+
+.aclaracion__index {
+    background-color: #3540b8;
+    font-size: 1.2rem;
+}
+
+
+
+/* CLASES---------------------------------------------------------------------------------------*/
+
+.div__clases {
+    width: 40rem;
+    height: 13.5rem;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.div__clases h3 {
+    background-color: #002c83;
+}
+
+span {
+    position: relative;
+    top: 0.7rem;
+    left: 0;
+}
+
+span a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 200;
+    background-color: #3540b8;
+    padding: 0 0.5rem;
+    border-radius: 5rem;
+}
+
+span a:hover {
+    background-color: #002c83;
+}
+
+/* -------------------------------------------------PROYECTO FINAL, primer entrega*/
+.proyectoFinal__clases {
+    height: 50rem;
+}
+
+.seccion_clasesPF {
+    margin: 1rem 0;
+}
+
+.proyectoFinal__clases h3 {
+    background-color: #392b4e;
+}
+
+.proyectoFinal__clases h2 {
+    background-color: #392b4e;
+}
+
+.proyectoFinal__clases .aclaracion__index {
+    background-color: #5d3b68;
+}
+
+.seccion_clasesPF ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.seccion_clasesPF ul li{
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.proyectoFinal__clases .item__clases {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 4rem;
+    margin: 7px 7px;
+}
+
+.proyectoFinal__clases .item__clases h3 {
+    height: 2.5rem;
+    padding: 1.5rem 0 0 0;
+    text-align: center;
+    background-color: black;
+}
+
+.proyectoFinal__clases .item__clases h3:hover {
+    background-color: #1a1a1a;
+}
+
+.proyectoFinal h3:hover {
+    background-color: #392b4e;
+}
+
+.proyectoFinal__clases .item__clases h4 {
+    height: 4rem;
+    padding: 0;
+}
+
+.proyectoFinal__clases span a {
+    background-color: #392b4e;
+}
+
+.proyectoFinal__clases span a:hover {
+    background-color: #5d3b68;
+}
